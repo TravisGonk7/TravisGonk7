@@ -1,12 +1,67 @@
-#nav{
-    padding:0px;
-    background-color:#E1C9B7;
+html,body{
+    overflow-x:hidden;
+    margin:0px auto;}
+
+nav#nav.nav{ /*0111*/
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    flex-direction: column;
+    background-color:#0A1B33;
     border:none;
-}
-@media (min-width:765px){
+    padding:10px;
+    width:100%;}
 
-}
+.nav-link{
+    text-align:center;
+    text-decoration:none;
+    color:white;}
 
-@media (min-width:1024px){
+main#main.main{
+    width:100%;}
 
+section#home{
+    background-color:#0A1B33;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 45px;
+    font-size:1.4rem;
+    text-align: center;}
+
+h1.page-title{
+    font-size:2.8rem;
 }
+section#about{
+    text-align:center;
+    background-color:#0A1B33;
+    color:white;
+    font-size:1.2rem;
+    line-height:45px;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+h2.section-title{
+    text-align: center;
+    font-size:2.8rem;}
+
+section#contact{
+    background-color:#0A1B33;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    line-height:45px;
+    text-align:center;}
+    
+
+@media (min-width:768px){
+    .nav-link{
+        display:block;
+        text-align:center;}
+
+    section#home{
+        font-size:1.2rem;
+        line-height:1.8rem;}
+
+    section p{
+        text-align: center;
+       
+        }
+}
+@media (min-width:1024px){}
