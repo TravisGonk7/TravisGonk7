@@ -1,0 +1,145 @@
+/*CSS VALIDATED*/
+/* Only Contains A Singular Font Style*/
+
+html,body {/* This Code was used to remove the horizontal scrolling from the page*/
+    overflow-x:hidden;
+    margin:0px auto;
+}
+
+nav#nav.nav{ /*0111/ Used to override the navigation bar and put into a column using flex*/
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    flex-direction: column;
+    background-color:#0A1B33;
+    border:none;
+    padding:10px;
+    width:100%;
+}
+
+.nav-link{/* 0010 removing the blue underline link and changing the color*/
+    text-align:center;
+    text-decoration:none;
+    color:white;
+}
+
+main#main.main {/*0111 i used this so i could override the max width set in the base css therefore my page would be responsive for laptops and monitors*/
+    max-width:100%;
+}
+
+section#home{/*0101 adjusted the font, changed the background color.*/
+    background-color:#0A1B33;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 45px;
+    font-size:1.4rem;
+    text-align: center;
+}
+
+h1.page-title{/* 0011 made the h1 bigger for mobile view*/
+    font-size:2.8rem;
+}
+
+
+section#about{ /*0101 adjusted the font and alignement , changed the background color.*/ 
+    text-align:center;
+    background-color:#0A1B33;
+    color:white;
+    font-size:1.2rem;
+    line-height:45px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2.section-title{/* 0011 made the h1 bigger for mobile view*/
+    text-align: center;
+    font-size:2.8rem;
+}
+
+section#contact{/*0101 adjusted the font and alignement , changed the background color.*/
+    background-color:#0A1B33;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    line-height:45px;
+    text-align:center;
+}
+
+form.contact-form{/*0011 made adjustments to the contact form, added more styles to it*/
+    background-color:#F3D5A5;
+    box-shadow:3px 3px 3px 3px white;
+    border-radius:15px 15px 15px 15px;
+    width:80%;
+}
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:1.2rem;
+    padding-top: 4px;
+    padding-bottom:4px;
+    border-radius:15px 15px 15px 15px;
+    width:250px;
+}
+
+
+footer{/* footer had some space in between the last section so i used overflow-x to remove that space and added more styles to it to polish it*/
+    background-color:#0A1B33;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:center;
+    overflow-x:hidden;
+    color: white;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+    
+/* Changed Of Viewpoint For Tablet Size*/
+@media (min-width:768px){
+    /* Made A Few Adjustments To font-sizes so they are bigger and easier to read on tabelet view*/
+    .nav-link{
+        display:block;
+        text-align:center;
+    }
+
+    h1.page-title,h2.section-title {/* Combined h1 and h2 to have the same font-sizes*/
+        font-size: 3.1rem; 
+    }
+    
+    section#home{
+        font-size:1.4rem;
+        line-height:2.3rem;
+    }
+
+    input.contact-form-input{/*0011 made  the input bar longer*/
+        width:100%;
+    }
+    textarea.contact-form-input{/*0011 made the text area smaller and alignt it*/
+        width:80%;
+        padding:20px;
+        text-align:center;
+    }
+
+    button{/*Button Made some stylying changes to it, made it bigger and gave it more of a circular form*/
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size:1.2rem;
+        padding-top:15px;
+        padding-bottom:15px;
+        border-radius: 15px 15px 15px 15px;
+        width:200px;
+    }
+}
+/* Viewpoint For Laptop's */
+@media (min-width:1024px){
+
+    
+    section#about,section#home,section#contact{/*Change In Font Size for all section*/
+        font-size:1.5rem;
+    }
+
+    form.contact-form{ /* Made the contact form smaller for the viewpoint*/
+        width:50%;
+    }
+    /* Slight Tweaks to the contact-form to make the input width less long*/
+    textarea.contact-form-input{
+        width:95%;
+    }
+    input.contact-form-input{
+        width:95%;
+    }
+}
