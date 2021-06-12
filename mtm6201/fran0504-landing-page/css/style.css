@@ -1,0 +1,13 @@
+.logo{
+    float:left;
+}
+
+.wrapper{
+    background-color: #F7F7FF;
+    margin: auto;
+}
+
+main{
+    font-weight:bold;
+    font-family: monte;
+}
