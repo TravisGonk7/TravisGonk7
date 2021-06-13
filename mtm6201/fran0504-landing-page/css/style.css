@@ -1,13 +1,122 @@
-.logo{
-    float:left;
+body{
+    background-color:#F7F7FF;
 }
-
 .wrapper{
-    background-color: #F7F7FF;
-    margin: auto;
-}
+    margin: 0 auto;
+    width:90%;}
 
 main{
+    font-family: 'monsterrat', sans-serif;
     font-weight:bold;
-    font-family: monte;
+    line-height: 60px;
+    font-size:72px;}
+
+h1{  
+    font-family: 'Montserrat-thin', sans-serif;
+    font-size:18px;}
+
+#scooter{
+        text-align: center;}
+
+h2{
+    font-family: 'monsterrat', sans-serif;
+    font-size:32px;
+    text-align: center;
+    font-weight: bold;
 }
+h3{
+    font-family: 'Montserrat-thin', sans-serif;
+    font-size:12px;
+    text-align: center;
+}
+
+fieldset{
+    border:none;
+}
+
+#contact{
+    padding-bottom:10px;
+    width:auto;
+    height:auto;
+    border:none;
+    text-align: center;
+    background-color:white;
+    border-radius : 26px 26px 26px 26px;
+    box-shadow: 5px 10px 15px #33313166}
+
+input{
+        width:90%;
+        border-radius:7px 7px 7px 7px;
+        margin-top:15px;
+        padding:10px;
+        background-color:#eeee;
+        border:none;}
+
+::placeholder{
+    font-family: 'Montserrat-thin', sans-serif;}
+
+.space{
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;}
+ #drive{
+        margin-top:30px;
+        text-align: center;
+        font-family: 'monsterrat-ExtraBold', sans-serif;
+        font-size:20px;
+        border:none;
+        font-weight: bold;
+        background-color:#57eeab ;
+        width:250px;
+        height:55px;
+        border-radius:10px 10px 10px 10px;}
+
+p{  padding-top:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color:#FF8480;
+    text-decoration: none;
+}
+
+footer{
+    background-color:#FFFD8C;
+    width:100%;}
+
+h4{ margin-left:30px;
+    padding-top:30px;
+    font-family: 'monsterrat', sans-serif;
+    font-weight:bold;
+    font-size:14px;}
+
+h5{ margin-left:30px;
+    font-family: 'Montserrat-thin', sans-serif;}
+
+#calculate{
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    background-color:#FF8480;
+    font-family: 'monsterrat', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    width:302px;
+    border-radius:90px 90px 90px 90px;
+    margin-top:30px;
+    border:none;
+    margin-top:30px;
+}
+.icons{
+    padding-bottom:15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;;
+
+}
+
+@media(min-width:768px){}
+
+@media(min-width:1024px){}
