@@ -2,44 +2,45 @@ body{
     background-color:#F7F7FF;
 }
 .wrapper{
-    margin: 0 auto;
-    width:90%;}
+            margin: 0 auto;
+            width:90%;}
 
 main{
-    font-family: 'monsterrat', sans-serif;
-    font-weight:bold;
-    line-height: 60px;
-    font-size:72px;}
+        margin-top:30px;
+        font-family: 'monsterrat', sans-serif;
+        font-weight:bold;
+        font-size:68px;}
 
-h1{  
-    font-family: 'Montserrat-thin', sans-serif;
-    font-size:18px;}
+h1{ 
+        font-family: 'Montserrat-thin', sans-serif;
+        font-size:18px;}
 
 #scooter{
-        text-align: center;}
+            text-align: center;}
 
 h2{
-    font-family: 'monsterrat', sans-serif;
-    font-size:32px;
-    text-align: center;
-    font-weight: bold;
+        font-family: 'monsterrat', sans-serif;
+        text-align: left;
+        font-size:32px;
+        font-weight: bold;
 }
 h3{
+    text-align: left;
     font-family: 'Montserrat-thin', sans-serif;
     font-size:12px;
-    text-align: center;
 }
 
 fieldset{
+    width:90%;
     border:none;
 }
 
 #contact{
+    text-align: center;
     padding-bottom:10px;
     width:auto;
     height:auto;
     border:none;
-    text-align: center;
     background-color:white;
     border-radius : 26px 26px 26px 26px;
     box-shadow: 5px 10px 15px #33313166}
@@ -58,10 +59,10 @@ input{
 .space{
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;}
- #drive{
+    text-align: left;}
+
+#drive{
         margin-top:30px;
-        text-align: center;
         font-family: 'monsterrat-ExtraBold', sans-serif;
         font-size:20px;
         border:none;
@@ -70,11 +71,11 @@ input{
         width:250px;
         height:55px;
         border-radius:10px 10px 10px 10px;}
-
-p{  padding-top:30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size:16px;
-}
+        
+p#check{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size:16px;}
 
 a{
     font-family: 'Montserrat', sans-serif;
@@ -82,18 +83,34 @@ a{
     text-decoration: none;
 }
 
+
 footer{
     background-color:#FFFD8C;
     width:100%;}
 
-h4{ margin-left:30px;
+h4{ 
     padding-top:30px;
     font-family: 'monsterrat', sans-serif;
     font-weight:bold;
-    font-size:14px;}
+    font-size:24px;
+    margin-right:25px;
+    margin-left:25px;}
 
-h5{ margin-left:30px;
+h5{ margin-top:-20px;
+    font-size:19px;
+    margin-right:25px;
+    margin-left:25px;
     font-family: 'Montserrat-thin', sans-serif;}
+fieldset{
+    text-align: center;
+}
+input#hours{
+    border-radius:15px 15px 15px 15px;
+    width:15%;}
+
+input#city{
+    border-radius: 15px 15px 15px 15px;
+    width:50%;}
 
 #calculate{
     padding-top:5px;
@@ -105,18 +122,65 @@ h5{ margin-left:30px;
     font-weight:bold;
     width:302px;
     border-radius:90px 90px 90px 90px;
-    margin-top:30px;
-    border:none;
-    margin-top:30px;
+    margin-top:10px;
+    border:none;}
+
+.icons{
+    padding-bottom:30px;
+    padding-top:15px;
+    display: flex;
+    justify-content: space-around;}
+
+
+
+@media(min-width:768px){
+    .wrapper{
+        overflow-x: hidden;
+    }
+    main{
+        font-size:120px;}
+    h1{
+        font-size:28px;}
+    #scooter{
+        
+        height:auto;}
+
+    h2{font-size:40px;}
+
+    h3{ margin-top:-15px;
+        font-size:20px;}
+
+    #contact{
+        margin:auto;
+        margin-top:15px;
+        width:90%;
+        
+    }
+    input{
+        padding:15px;
+    }
+#drive{
+    font-size:28px;
+    width:100%;
+    text-align: center;}
+h4{
+    font-size:20px;
+    margin-left:70px;
+    margin-right:70px;}
+h5{
+    margin-left:70px;
+    margin-right:70px;
+    font-size:15px;}
+input#city{
+    width:30%;}
+
+#calculate{
+    width:250px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .icons{
-    padding-bottom:15px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;;
-
-}
-
-@media(min-width:768px){}
+    justify-content: space-evenly;
+}}
 
 @media(min-width:1024px){}
