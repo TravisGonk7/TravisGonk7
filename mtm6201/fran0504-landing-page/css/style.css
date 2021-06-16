@@ -21,7 +21,7 @@ h1{     font-family: 'Montserrat-thin', sans-serif;
 
 #scooter{ text-align: center;}
 
-/* h2 need it to be bigger than h3 therefore i make it bigger using font-size and making it bold by font-weight and aligned it to the left side*/
+/* h2 need it to be bigger than h3 therefore i madeit bigger using font-size and making it bold by font-weight and aligned it to the left side*/
 h2{ font-family: 'monsterrat', sans-serif;
     text-align: left;
     font-size:32px;
@@ -35,6 +35,7 @@ h3{ text-align: left;
 /* Removed The Border */
 fieldset{width:90%;
          border:none;}
+
 /* Used Border-Radius And Box-Shadow to style the contact form. i used width:auto to make it responsive. border:none to remove it's border*/
 #contact{text-align: center;
         padding-bottom:10px;
@@ -44,6 +45,7 @@ fieldset{width:90%;
         border-radius : 26px 26px 26px 26px;
         box-shadow: 5px 10px 15px #33313166}
 /*border:none to remove its border, margin-top to give space in between all of the inputs,border-radius to make it more circular and width 90% to make it not take the whole width of the contact form*/
+
 input{  width:90%;
         border-radius:7px 7px 7px 7px;
         margin-top:15px;
@@ -85,6 +87,7 @@ a{  font-family: 'Montserrat', sans-serif;
 /* Changed Footer Background Color And Made The Width take 100% of available space.*/
 footer{ background-color:#FFFD8C;
         width:100%;}
+
 /* padding top to give it space, margin left/right to move it specificly */
 h4{ padding-top:30px;
     font-family: 'monsterrat', sans-serif;
@@ -92,6 +95,7 @@ h4{ padding-top:30px;
     font-size:24px;
     margin-right:25px;
     margin-left:25px;}
+
 /* margin top negative to make it closer to the h4, margin same as h4 to align them together*/
 h5{ margin-top:-20px;
     font-size:19px;
@@ -100,12 +104,15 @@ h5{ margin-top:-20px;
     font-family: 'Montserrat-thin', sans-serif;}
 
 fieldset{text-align: center;}
+
 /* Specific Adjustments On The border radius making it more circular and width only takes 15%*/
 input#hours{border-radius:15px 15px 15px 15px;
             width:15%;}
+
 /* Specific Adjustments On The border radius making it more circular and width only takes 15%*/
 input#city{border-radius: 15px 15px 15px 15px;
             width:50%;}
+
 /* removed the borders, change the font size and font family and the font-weight, added color and bg-color,padding to give it space inside the element*/
 #calculate{padding-top:5px;
     padding-bottom:5px;
@@ -118,6 +125,7 @@ input#city{border-radius: 15px 15px 15px 15px;
     border-radius:90px 90px 90px 90px;
     margin-top:10px;
     border:none;}
+
 /* padding for space inside the element and display:flex justify-content for alignement.*/
 .icons{padding-bottom:30px;
        padding-top:15px;
@@ -138,12 +146,13 @@ input#city{border-radius: 15px 15px 15px 15px;
         height:auto;}
 
     h2{
+        margin-left:20px;
         font-size:40px;}
 
-    h3{ 
+    h3{ margin-left:20px;
         margin-top:-15px;
         font-size:20px;}
-            
+
 /* Margin 0 Auto To Center It, Space on top of it because i didnt want it to stack on top of the scooter*/
     #contact{
         margin:auto;
@@ -183,7 +192,7 @@ input#city{
     width:30%;
 }}
 
-@media(min-width:1024px){
+@media(min-width:1350px){
     /*12 columns using 1fr that way i would have more space to move things coordinatingly.*/
     .grid{
         column-gap: 10px;
