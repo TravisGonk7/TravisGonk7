@@ -1,68 +1,70 @@
-body{
-    background-color:#F7F7FF;
-}
-.wrapper{
-            margin: 0 auto;
-            width:90%;}
+/* Css Validated */
 
-main{
-        margin-top:30px;
-        font-family: 'monsterrat', sans-serif;
-        font-weight:bold;
+/* Changed The Background Image And removed horizontal scrolling */
+body {
+    background-color:#F7F7FF;
+    overflow-x: hidden;}
+/* Centered Everything In My Wrapper with margin and used width 90% to leave space on both sides of my page */
+.wrapper{ 
+        margin: 0 auto;
+         width:90%;}
+
+/* Changed My Main's Design by adding a font family, font size, font weight. i used margin to give it some space on the top to seperate it from the logo*/
+main{  margin-top:30px;
+       font-family: 'monsterrat', sans-serif;
+       font-weight:bold;
         font-size:68px;}
 
-h1{ 
-        font-family: 'Montserrat-thin', sans-serif;
+/* Gave It A Font Size of 18px to make it smaller than mains*/
+h1{     font-family: 'Montserrat-thin', sans-serif;
         font-size:18px;}
 
-#scooter{
-            text-align: center;}
+#scooter{ text-align: center;}
 
-h2{
-        font-family: 'monsterrat', sans-serif;
-        text-align: left;
-        font-size:32px;
-        font-weight: bold;
-}
-h3{
+/* h2 need it to be bigger than h3 therefore i make it bigger using font-size and making it bold by font-weight and aligned it to the left side*/
+h2{ font-family: 'monsterrat', sans-serif;
     text-align: left;
+    font-size:32px;
+    font-weight: bold;}
+
+/* Smaller Than h2, used a different font family and aligned it on the left side*/
+h3{ text-align: left;
     font-family: 'Montserrat-thin', sans-serif;
-    font-size:12px;
-}
+    font-size:12px;}
 
-fieldset{
-    width:90%;
-    border:none;
-}
-
-#contact{
-    text-align: center;
-    padding-bottom:10px;
-    width:auto;
-    height:auto;
-    border:none;
-    background-color:white;
-    border-radius : 26px 26px 26px 26px;
-    box-shadow: 5px 10px 15px #33313166}
-
-input{
-        width:90%;
+/* Removed The Border */
+fieldset{width:90%;
+         border:none;}
+/* Used Border-Radius And Box-Shadow to style the contact form. i used width:auto to make it responsive. border:none to remove it's border*/
+#contact{text-align: center;
+        padding-bottom:10px;
+        width:auto;
+        border:none;
+        background-color:white;
+        border-radius : 26px 26px 26px 26px;
+        box-shadow: 5px 10px 15px #33313166}
+/*border:none to remove its border, margin-top to give space in between all of the inputs,border-radius to make it more circular and width 90% to make it not take the whole width of the contact form*/
+input{  width:90%;
         border-radius:7px 7px 7px 7px;
         margin-top:15px;
         padding:10px;
         background-color:#eeee;
         border:none;}
 
-::placeholder{
-    font-family: 'Montserrat-thin', sans-serif;}
+/*Changed the font of the placeholder*/
+::placeholder{ font-family: 'Montserrat-thin', sans-serif;}
 
-.space{
-    font-size:14px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;}
+/*Changed it's font family , aligned it left */
+.space{ font-size:14px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;}
+/* lowered the width of the checkbox because it would break lines with the label, */
+input#check{
+        width:10px;
+        margin-left: 10px;}
 
-#drive{
-        margin-top:30px;
+/* Margin-top to give it space from the checkbox, remove it's border, changed it's background color, adjusted width and height of it, and border radius to make it more circular*/
+#drive{ margin-top:30px;
         font-family: 'monsterrat-ExtraBold', sans-serif;
         font-size:20px;
         border:none;
@@ -72,48 +74,40 @@ input{
         height:55px;
         border-radius:10px 10px 10px 10px;}
         
-p#check{
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
+p#check{   font-family: 'Montserrat', sans-serif;
             font-size:16px;}
 
-a{
-    font-family: 'Montserrat', sans-serif;
+/* Needed A Specific Color Change */
+a{  font-family: 'Montserrat', sans-serif;
     color:#FF8480;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
-
-footer{
-    background-color:#FFFD8C;
-    width:100%;}
-
-h4{ 
-    padding-top:30px;
+/* Changed Footer Background Color And Made The Width take 100% of available space.*/
+footer{ background-color:#FFFD8C;
+        width:100%;}
+/* padding top to give it space, margin left/right to move it specificly */
+h4{ padding-top:30px;
     font-family: 'monsterrat', sans-serif;
     font-weight:bold;
     font-size:24px;
     margin-right:25px;
     margin-left:25px;}
-
+/* margin top negative to make it closer to the h4, margin same as h4 to align them together*/
 h5{ margin-top:-20px;
     font-size:19px;
     margin-right:25px;
     margin-left:25px;
     font-family: 'Montserrat-thin', sans-serif;}
-fieldset{
-    text-align: center;
-}
-input#hours{
-    border-radius:15px 15px 15px 15px;
-    width:15%;}
 
-input#city{
-    border-radius: 15px 15px 15px 15px;
-    width:50%;}
-
-#calculate{
-    padding-top:5px;
+fieldset{text-align: center;}
+/* Specific Adjustments On The border radius making it more circular and width only takes 15%*/
+input#hours{border-radius:15px 15px 15px 15px;
+            width:15%;}
+/* Specific Adjustments On The border radius making it more circular and width only takes 15%*/
+input#city{border-radius: 15px 15px 15px 15px;
+            width:50%;}
+/* removed the borders, change the font size and font family and the font-weight, added color and bg-color,padding to give it space inside the element*/
+#calculate{padding-top:5px;
     padding-bottom:5px;
     color:white;
     background-color:#FF8480;
@@ -124,45 +118,47 @@ input#city{
     border-radius:90px 90px 90px 90px;
     margin-top:10px;
     border:none;}
-
-.icons{
-    padding-bottom:30px;
-    padding-top:15px;
-    display: flex;
-    justify-content: space-around;}
+/* padding for space inside the element and display:flex justify-content for alignement.*/
+.icons{padding-bottom:30px;
+       padding-top:15px;
+        display: flex;
+        justify-content: space-around;}
 
 
 
 @media(min-width:768px){
     .wrapper{
-        overflow-x: hidden;
-    }
+        overflow-y: hidden;}
     main{
         font-size:120px;}
     h1{
         font-size:28px;}
+
     #scooter{
-        
         height:auto;}
 
-    h2{font-size:40px;}
+    h2{
+        font-size:40px;}
 
-    h3{ margin-top:-15px;
+    h3{ 
+        margin-top:-15px;
         font-size:20px;}
-
+            
+/* Margin 0 Auto To Center It, Space on top of it because i didnt want it to stack on top of the scooter*/
     #contact{
         margin:auto;
         margin-top:15px;
         width:90%;
         
     }
+    /* Padding to make input bigger*/
     input{
         padding:15px;
     }
+    /* Width Change to 95%, Increased Font Size*/
 #drive{
     font-size:28px;
-    width:100%;
-    text-align: center;}
+    width:95%;}
 h4{
     font-size:20px;
     margin-left:70px;
@@ -171,16 +167,53 @@ h5{
     margin-left:70px;
     margin-right:70px;
     font-size:15px;}
+
+/* Decreased Width*/
 input#city{
     width:30%;}
-
+/* Decreased Width, Added Padding*/
 #calculate{
     width:250px;
     padding-top:10px;
     padding-bottom:10px;
 }
+/*centers the icons using margin 0 auto and only uses 30% of width*/
 .icons{
-    justify-content: space-evenly;
+    margin:0 auto;
+    width:30%;
 }}
 
-@media(min-width:1024px){}
+@media(min-width:1024px){
+    /*12 columns using 1fr that way i would have more space to move things coordinatingly.*/
+    .grid{
+        column-gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);}
+    /* I Told the main to go from the first column to the six, increased the font size. And i said to place itself on the first row.*/
+    main{
+        grid-row: 1;
+        font-size:70px;
+        grid-column: 1 / 6;
+    }
+/* h1 goes from the first to the fifth column, margin negative to bring it closer to the main and lowered the font size.*/
+    h1{ grid-column: 1 / 5;
+        margin-top: -320px;
+        font-size:  24px;
+    }
+    /* Set the margin as auto therefore it would center, grid-row to make it go to the first row, occupies 4 column all the way to the 7, and width set to a specific number*/
+    #scooter{
+        grid-row:1;
+        grid-column: 4/ 7 ;
+        width:600px;
+        Margin:auto;
+    }
+    /* starts at the 9 column and goes all the way to the end, placed on the first row*/
+#contact{
+    grid-column:9/ -1;
+    grid-row: 1;
+}
+
+}
+    
+
+    
