@@ -1,0 +1,20 @@
+.wrapper{
+    overflow-x:hidden;
+    width:90%;
+}
+
+header{
+    width:auto;
+    background-color:#825F4F;
+    text-align: center;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav a{
+    display:flex;
+    flex-direction:column;
+    text-decoration: none;
+    color:black;
+}
+
