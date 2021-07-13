@@ -14,8 +14,9 @@ header{
     text-align: center;
 }
 main{
-   padding-top:10px;
-    font-size:24px;
+    padding-top:10px;
+    margin-bottom:20px;
+    font-size:32px;
     color:white;
     font-weight:bold;
     font-family: 'Lily Script One', cursive;
@@ -25,33 +26,54 @@ main{
     flex-direction:column;
     text-decoration: none;
     color:white;
-    line-height: 30px;
+    line-height: 35px;
+    font-family: 'Questrial', sans-serif;
+    font-weight:300;
+    font-size:18px;
+
 }
 .online{
     text-align: center;}
 
 button#online{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:400;
+    font-size: 24px;
+    font-family: 'Questrial', sans-serif;
+    border:none;
     color:white;
-    font-weight: bold;;
     background-color: #825F4F;
     margin-top:70px;
     width:250px;
     border-radius: 20px 20px 20px 20px;
-    height:40px;
+    height:55px;
 }
 
 .services{
     text-align: center;}
 
 button#services{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:24px;
+    font-family: 'Questrial', sans-serif;
+    border:none;
     color:white;
-    font-weight: bold;;
+    font-weight: 400;
     background-color: #825F4F;
     margin-top:50px;
     width:250px;
     border-radius: 20px 20px 20px 20px;
-    height:40px;
+    height:55px;}
 
+footer{
+    width:100%;
+    text-align: center;}
+
+.icons{
+    padding-top:140px;
+    display:flex;
+    justify-content: space-around;
+}
+
+@media(min-width:768px){
+    .wrapper{
+        overflow-y:hidden;}
 }
