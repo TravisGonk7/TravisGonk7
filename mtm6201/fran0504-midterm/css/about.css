@@ -1,0 +1,104 @@
+/*CSS VALIDATED*/
+
+/* ALL IMAGES OPTIMIZED ON PHOTOSHOP*/
+*{margin:0%}
+.wrapper{
+
+        overflow-x:hidden;
+        width:100%;
+        margin: 0 auto;}
+header{
+        background-color: #DEB391;
+        text-align: center;
+        height:auto;
+        margin:0;}
+main{
+        padding-top:10px;
+        margin-bottom:20px;
+        font-size:32px;
+        color:white;
+        font-weight:bold;
+        font-family: 'Lily Script One', cursive;}
+.nav a{
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        color:white;
+        line-height: 35px;
+        font-family: 'Questrial', sans-serif;
+        font-weight:300;
+        font-size:18px;}
+
+.about{
+        background-color: #AB7958;}
+
+h1{     padding-top:10px;
+        margin-top:0px;
+        font-family: 'Questrial', sans-serif;
+        text-align: center;
+        font-size:32px;
+        color:white;}
+
+h2{     margin-top:40px;
+        font-family: 'Questrial', sans-serif;
+        text-align: center;
+        font-size:18px;
+        color:white;
+        font-weight: 300;
+        line-height:30px;}
+
+p{
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-size:15px;
+        font-weight: 300px;
+        line-height:30px;
+        color:white;}
+
+.baker{
+        text-align: center;}
+
+.baker img{
+            border-radius:50%;
+            width:185px;}
+   
+.bread{
+        text-align: center;}
+
+.bread img{
+            height:auto;
+            max-width: 100%;}
+
+footer{
+
+        height:100%;
+        background-color: #E4B688;
+        width:100%;
+        text-align: center;}
+
+.icons{
+        padding:10px;
+        margin:auto;
+        display:flex;
+        justify-content: space-around;}
+
+@media(min-width:765px){
+
+header{
+        display:flex;
+        height: 65px;}
+
+main{  
+        margin:auto;
+        padding-bottom:12px;
+        margin-right:205px;}
+.nav{
+        margin:auto;
+        display: flex;}
+
+.nav a{
+        padding:10px}
+
+footer{ 
+        height:75px;
+        background-color: #E4B688;}}
