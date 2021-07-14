@@ -1,11 +1,9 @@
 /*CSS VALIDATED*/
 
 /* ALL IMAGES OPTIMIZED ON PHOTOSHOP*/
-*{margin:0%}
 .wrapper{
 
         overflow-x:hidden;
-        width:100%;
         margin: 0 auto;}
 header{
         background-color: #DEB391;
@@ -29,8 +27,9 @@ main{
         font-weight:300;
         font-size:18px;}
 
-.about{
-        background-color: #AB7958;}
+body{
+    background-color: #AB7958;
+}
 
 h1{     padding-top:10px;
         margin-top:0px;
@@ -51,7 +50,7 @@ p{
         font-family: 'Quicksand', sans-serif;
         text-align: center;
         font-size:15px;
-        font-weight: 300px;
+        font-weight:300;
         line-height:30px;
         color:white;}
 
@@ -68,6 +67,8 @@ p{
 .bread img{
             height:auto;
             max-width: 100%;}
+
+
 
 footer{
 
@@ -98,7 +99,20 @@ main{
 
 .nav a{
         padding:10px}
+.bread{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;}
+.bread img{
+    max-width: auto;
+    height:auto;
+}
+p{
+    flex-basis: 50%;}
 
 footer{ 
         height:75px;
-        background-color: #E4B688;}}
+        background-color: #E4B688;}
+
+
+}
