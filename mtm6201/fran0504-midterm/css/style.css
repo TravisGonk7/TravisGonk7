@@ -10,70 +10,117 @@ body{
 }
 
 header{
-    background-color: #825F4F;
-    text-align: center;
+        background-color: #E4B688;
+        text-align: center;
 }
 main{
-    padding-top:10px;
-    margin-bottom:20px;
-    font-size:32px;
-    color:white;
-    font-weight:bold;
-    font-family: 'Lily Script One', cursive;
+        padding-top:10px;
+        margin-bottom:20px;
+        font-size:32px;
+        color:white;
+        font-weight:bold;
+        font-family: 'Lily Script One', cursive;
 }
 .nav a{
-    display:flex;
-    flex-direction:column;
-    text-decoration: none;
-    color:white;
-    line-height: 35px;
-    font-family: 'Questrial', sans-serif;
-    font-weight:300;
-    font-size:18px;
+        display:flex;
+        flex-direction:column;
+        text-decoration: none;
+        color:white;
+        line-height: 35px;
+        font-family: 'Questrial', sans-serif;
+        font-weight:300;
+        font-size:18px;
 
 }
 .online{
     text-align: center;}
 
 button#online{
-    font-weight:400;
-    font-size: 24px;
-    font-family: 'Questrial', sans-serif;
-    border:none;
-    color:white;
-    background-color: #825F4F;
-    margin-top:70px;
-    width:250px;
-    border-radius: 20px 20px 20px 20px;
-    height:55px;
+                font-weight:400;
+                font-size: 24px;
+                font-family: 'Questrial', sans-serif;
+                border:none;
+                color:white;
+                background-color: #E4B688;
+                margin-top:70px;
+                width:250px;
+                border-radius: 20px 20px 20px 20px;
+                height:55px;
 }
 
 .services{
-    text-align: center;}
+        text-align: center;}
 
 button#services{
-    font-size:24px;
-    font-family: 'Questrial', sans-serif;
-    border:none;
-    color:white;
-    font-weight: 400;
-    background-color: #825F4F;
-    margin-top:50px;
-    width:250px;
-    border-radius: 20px 20px 20px 20px;
-    height:55px;}
+                font-size:24px;
+                font-family: 'Questrial', sans-serif;
+                border:none;
+                color:white;
+                font-weight: 400;
+                background-color: #E4B688;
+                margin-top:50px;
+                width:250px;
+                border-radius: 20px 20px 20px 20px;
+                height:55px;}
 
 footer{
+    height:auto;
+    background-color: #E4B688;
+    margin-top: 120px;
     width:100%;
     text-align: center;}
 
 .icons{
-    padding-top:140px;
-    display:flex;
-    justify-content: space-around;
+        padding:10px;
+        margin:auto;
+        display:flex;
+        justify-content: space-around;
 }
 
-@media(min-width:768px){
-    .wrapper{
-        overflow-y:hidden;}
+@media(min-width:765px){
+header{
+        display:flex;
+        height: 65px;}
+
+main{  
+    margin:auto;
+    padding-bottom:12px;
+     margin-right:205px;
+}
+
+button#online{
+    margin-top:55px;
+    text-align: center;
+}
+
+button#services{
+   text-align: center;
+}
+
+.nav {  margin:auto;
+       display: flex;}
+
+.nav a{
+    padding:10px;
+}
+
+footer{ height:75px;
+        background-color: #E4B688;}
+
+
+}
+@media(min-width:1024px){
+ 
+    .group{
+        display:flex;}
+    .services{
+        margin: 0 auto;
+
+    }
+    .online{
+        margin: 0 auto;
+    }
+    .icons{
+        padding:25px;
+    }
 }
