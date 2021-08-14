@@ -1,12 +1,17 @@
 
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;400;500;600&display=swap');
+
+
+h1{ font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size:45px;
     margin-top:30px;
     text-align: center;}
 h2{
     margin-top:30px;
     text-align: center;}
 #contact{
-    margin-top:300px;
+    margin-top:25px;
     text-align: center;
     padding-bottom:10px;
     width:auto;
@@ -24,22 +29,22 @@ input{
     background-color:#eeee;
     border:none;}
 
-/*Changed the font of the placeholder*/
+
 ::placeholder{
     font-family: 'Questrial', sans-serif;
     font-weight: 300;}
 
-/*Changed it's font family , aligned it left */
+
 .space{ 
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
     text-align: left;}
-/* lowered the width of the checkbox because it would break lines with the label, */
+
 input#check{
         width:10px;
         margin-left: 10px;}
 
-/* Margin-top to give it space from the checkbox, remove it's border, changed it's background color, adjusted width and height of it, and border radius to make it more circular*/
+
 #send{ 
     margin-top:30px;
     font-family: 'Questrial', sans-serif;
@@ -51,3 +56,21 @@ input#check{
     width:250px;
     height:55px;
     border-radius:10px 10px 10px 10px;}
+
+img{
+    height:auto;
+    margin:auto;
+}
+p{
+    margin:auto;
+}
+
+.grid{
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);}
+
+footer{
+    margin-top:15px;
+    text-align: center;
+}
